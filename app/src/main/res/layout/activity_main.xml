@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nukkadpe1"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/resname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nukkad Pe"
+        android:textColor="@color/yellow"
+        android:textSize="34sp"
+        android:padding="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/resname"
+        android:layout_marginBottom="-50dp"
+        android:text="Milkshake Restaurant"
+        android:textSize="24sp"
+        android:textColor="@color/yellow"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/description"
+        android:layout_marginBottom="-433dp"
+        android:padding="16dp"
+        android:text="28-9-57, First Floor, Suryabagh, Jagadamba Junction, Visakhapatnam, Andhra Pradesh 530020"
+        android:textColor="@color/yellow"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/address"
+        android:layout_marginBottom="-46dp"
+        android:text="10 am to 11 pm"
+        android:padding="16dp"
+        android:textColor="@color/yellow"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/time"
+        android:layout_marginBottom="-42dp"
+        android:padding="16dp"
+        android:text="+9163013 69761"
+        android:textColor="@color/yellow"
+        android:textSize="24sp" />
+
+</RelativeLayout>
